@@ -1,0 +1,14 @@
+# Cargo
+/target/
+**/*.rs.bk
+Cargo.lock  # Pour les bibliothèques, pas pour les exécutables
+
+# Fichiers IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Fichiers système
+.DS_Store
+Thumbs.db
