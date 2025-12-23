@@ -1,1 +1,0 @@
-/Users/jannguyen/Desktop/all/delivery/codeInterprete/target/debug/interprete: /Users/jannguyen/Desktop/all/delivery/codeInterprete/src/main.rs /Users/jannguyen/Desktop/all/delivery/codeInterprete/src/utils/get_shebang.rs /Users/jannguyen/Desktop/all/delivery/codeInterprete/src/utils/mod.rs
