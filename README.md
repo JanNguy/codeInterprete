@@ -1,15 +1,68 @@
-# Universal code executor
+# Universal Code Executor
 
 ## Goals
 
-### ⚠ Italics texts are futures goals not mains goals
+### ⚠️ *Italicized texts represent future goals, not main objectives*
 
-Goals of this project is to execute or compile and excute any compatible code with various codes langages <em>with modulable multiples locals API </em>
+The goal of this project is to execute (or compile and execute) any compatible code across various programming languages *with modular multiple local APIs*.
 
-## Temps architechture
+## Current Architecture
 
-For the moment the envisaged architechture is a "main" orchestrator is in Rust. It will dectect the shebang and execute the adapted process.
+For the moment, the envisaged architecture includes a "main" orchestrator written in Rust. It will detect the shebang and execute the appropriate process.
 
-## WHY?
+## Why?
 
-I have some sides project who need this types of programms. Maybe it alreayd exist but I want to do it by myslef while learning Rust.
+I have several side projects that require this type of program. Maybe it already exists, but I want to build it myself while learning Rust. This project is a subpart of my other big secret project hehe.
+
+---
+
+## 🚀 **Quick Start**
+
+```bash
+# Clone the repository
+git clone <repository-url>
+
+# Navigate to project
+cd universal-code-executor
+
+# Build the project
+cargo build --release
+```
+
+## 📋 **Supported Languages**
+
+| Language | Status | Execution Method |
+|----------|--------|------------------|
+| Python | 🚧 In Progress | Direct interpreter |
+| JavaScript/Node | ⏳ Planned | Node runtime |
+| Rust | ⏳ Planned | Compile & execute |
+| Go | ⏳ Planned | Compile & execute |
+| Bash/Shell | 🚧 In Progress  | System shell |
+
+## 🏗️ **Architecture**
+
+```
+┌─────────────────┐
+│   User Input    │
+│  (script file)  │
+└────────┬────────┘
+         │
+┌────────▼────────┐
+│   Shebang       │
+│   Detector      │
+└────────┬────────┘
+         │
+┌────────▼────────┐
+│   Language      │
+│   Dispatcher    │
+└────────┬────────┘
+         │
+┌────────▼────────┐
+│   Executor      │
+│   (Rust Core)   │
+└────────┬────────┘
+         │
+┌────────▼────────┐
+│   Result/Output │
+└─────────────────┘
+```
