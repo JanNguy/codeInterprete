@@ -65,4 +65,14 @@ cargo build --release
 ┌────────▼────────┐
 │   Result/Output │
 └─────────────────┘
+
+## 📌 Roadmap
+- [x] Basic CLI parsing
+- [x] Shebang detection
+- [ ] Python execution
+- [ ] Shell execution
+- [ ] Node (JS/TS) execution
+- [ ] Containerized sandboxes
+
+
 ```
